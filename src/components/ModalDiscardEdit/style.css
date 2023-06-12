@@ -1,0 +1,111 @@
+.container-modal-remo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 4;
+
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+
+  background-color: #00000031;
+}
+
+.container-modal-remo img,
+button {
+  cursor: pointer;
+}
+
+.container-modal-remo img {
+  height: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin: 12.5px;
+}
+
+.modal-remo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 546px;
+  height: 214px;
+
+  position: absolute;
+
+  padding: 32px;
+
+  background: #fcfcfc;
+  border-radius: 6px;
+}
+
+.modal-remo h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.382174px;
+
+  color: #32323b;
+}
+
+.modal-remo span {
+  margin-top: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.382174px;
+
+  color: #191919;
+}
+
+.container-btn-modal {
+  display: flex;
+  justify-content: space-between;
+
+  width: 60%;
+  margin-top: 24px;
+}
+
+.btn-action {
+  width: 104px;
+  height: 40px;
+
+  margin-right: 24px;
+
+  background: #b7005c;
+  border-radius: 20px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.38px;
+
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  box-sizing: border-box;
+
+  width: 175px;
+  height: 40px;
+
+  background: #fcfcfc;
+  border: 1px solid #b7165d;
+  border-radius: 24px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.38px;
+
+  color: #b7165d;
+  cursor: pointer;
+}

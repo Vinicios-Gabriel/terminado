@@ -1,0 +1,43 @@
+.nav-user {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  z-index: 2;
+
+  position: initial;
+  margin: 0;
+
+  min-width: 100vw;
+  max-height: 15vh;
+
+  height: 20%;
+
+  padding: 0px 100px;
+
+  background-color: #ffffff;
+}
+
+.logo-navbar {
+  height: 15%;
+  width: 15%;
+}
+
+.user {
+  justify-self: flex-end;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  list-style: none;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.user img {
+  height: 30%;
+}

@@ -1,0 +1,32 @@
+.description-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 2rem;
+  width: 100%;
+
+  margin: 40px 0px;
+
+  padding: 32px;
+
+  background: #fcfcfc;
+  border-radius: 6px;
+}
+
+.description-product h1 {
+  align-self: self-start;
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #383842;
+}
+
+.description-product p {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #191919;
+}

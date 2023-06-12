@@ -1,0 +1,49 @@
+.card-other {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 450px;
+  min-width: 5.5%;
+
+  padding: 20px;
+
+  margin-top: 32px;
+  margin-right: 34px;
+
+  background: #fcfcfc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-other img {
+  align-self: center;
+  justify-self: center;
+  height: 90%;
+  width: 90%;
+  margin-bottom: 12px;
+}
+
+.card-other span {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  letter-spacing: -0.382174px;
+
+  color: #191919;
+}
+
+.card-other h1 {
+  justify-self: end;
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.382174px;
+
+  color: #d10070;
+}

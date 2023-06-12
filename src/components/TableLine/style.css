@@ -1,0 +1,37 @@
+.table-line {
+  justify-content: space-between;
+
+  position: relative;
+
+  width: 80vw;
+  height: 108px;
+
+  margin-top: 12px;
+
+  background: #f5f5f5;
+}
+
+.edit-delete {
+  gap: 13px;
+}
+
+.line-column {
+  width: 30%;
+
+  text-align: center;
+}
+
+.product-img {
+  height: 80px;
+  width: 80px !important;
+  margin-right: 48%;
+}
+
+.line-normal {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.382174px;
+
+  color: #191919;
+}

@@ -1,0 +1,27 @@
+.table-header {
+  justify-content: space-between;
+
+  width: 80vw;
+  height: 70px;
+}
+
+.header-column {
+  width: 30%;
+
+  text-align: center;
+}
+
+.filter-date {
+  gap: 5px;
+}
+
+strong {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.382174px;
+
+  /* Cor de texto/#6B6B6B */
+
+  color: #858585;
+}
